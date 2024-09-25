@@ -23,103 +23,106 @@
         </div>
     </header>
     <main>
-        <div class="bg-white py-20 px-36 flex flex-col gap-8">
+        <div class="bg-white py-20 px-36">
             <div class="flex gap-4 justify-center mb-8">
-                <button class="rounded-lg w-40 h-14 font-extrabold text-xl bg-[#B4F461] ">Donation</button>
-                <button class="rounded-lg w-36 h-14 text-xl font-semibold text-slate-500 bg-[#B4F461]">History</button>
+                <button id="donate-btn" class="rounded-lg w-40 h-14 font-extrabold text-xl bg-[#B4F461]  ">Donation</button>
+                <button id="history-btn" class="rounded-lg w-36 h-14 text-xl font-semibold text-slate-500 bor border">History</button>
             </div>
-            <!-- card-1 -->
-            <div class="grid grid-cols-2 p-10 border rounded-2xl ">
-                <div class="">
-                    <img src="assets/noakhali.png" alt="">
-                </div>
-                <div>
-                    <div>
-                        <div class="flex gap-2 py-3 px-4 bg-slate-50 w-36 h-auto rounded-lg mb-4">
-                            <div><img src="assets/coin.png" alt=""></div>
-                            <div class="font-bold inline-flex gap-1"><div id="noakhali-total-taka" class="font-normal ">15000</div>BDT</div>
-                        </div>
-                        <div class="mb-8">
-                            <h3 class="font-extrabold leading-8 text-xl mb-4">Donate for Flood at Noakhali, Bangladesh</h3>
-                            <p class="text-base text-slate-500 font-medium"> The recent floods in Noakhali have caused significant damage to homes infrastructure.
-                                Your donation will help provide essential supplies and to those affected by this
-                                disaster. Every contribution, big or small, makes difference. Please join us in
-                                supporting the relief efforts and making a positive impact on the lives of those in
-                                need.</p>
-                        </div>
+            <div id="donate" class="bg-white  flex flex-col gap-8">
+                
+                <!-- card-1 -->
+                <div class="grid grid-cols-2 p-10 border rounded-2xl ">
+                    <div class="">
+                        <img src="assets/noakhali.png" alt="">
                     </div>
                     <div>
-                        <div><input class="border rounded-xl p-4 w-full mb-4" placeholder="Write Donation Amount" type="text" name="" id="noakhali-donate-taka">
-                            <br></div>
-                        <button id="add-taka" class="py-4 px-8 w-full bg-[#B4F461] font-bold text-xl rounded-xl">Donate Now</button>
+                        <div>
+                            <div class="flex gap-2 py-3 px-4 bg-slate-50 w-36 h-auto rounded-lg mb-4">
+                                <div><img src="assets/coin.png" alt=""></div>
+                                <div class="font-bold inline-flex gap-1"><div id="noakhali-total-taka" class="font-normal ">15000</div>BDT</div>
+                            </div>
+                            <div class="mb-8">
+                                <h3 class="font-extrabold leading-8 text-xl mb-4">Donate for Flood at Noakhali, Bangladesh</h3>
+                                <p class="text-base text-slate-500 font-medium"> The recent floods in Noakhali have caused significant damage to homes infrastructure.
+                                    Your donation will help provide essential supplies and to those affected by this
+                                    disaster. Every contribution, big or small, makes difference. Please join us in
+                                    supporting the relief efforts and making a positive impact on the lives of those in
+                                    need.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div><input class="border rounded-xl p-4 w-full mb-4" placeholder="Write Donation Amount" type="text" name="" id="noakhali-donate-taka">
+                                <br></div>
+                            <button id="add-taka" class="py-4 px-8 w-full bg-[#B4F461] font-bold text-xl rounded-xl">Donate Now</button>
+                        </div>
                     </div>
                 </div>
+                <!-- card-end -->
+    
+    
+                 <!-- card-2 -->
+                <div class="grid grid-cols-2 p-10 border rounded-2xl">
+                    <div class="">
+                        <img src="assets/feni.png" alt="">
+                    </div>
+                    <div>
+                        <div>
+                            <div class="flex gap-2 py-3 px-4 bg-slate-50 w-36 h-auto rounded-lg mb-4">
+                                <div><img src="assets/coin.png" alt=""></div>
+                               <div class="font-bold inline-flex gap-1"> <div id="feni-total-taka" class="font-normal ">10000</div>BDT</div>
+                            </div>
+                            <div class="mb-8">
+                                <h3 class="font-extrabold leading-8 text-xl mb-4">Donate for Flood Relief in Feni,Bangladesh</h3>
+                                <p class="text-base text-slate-500 font-medium"> The recent floods in Noakhali have caused significant damage to homes infrastructure.
+                                    Your donation will help provide essential supplies and to those affected by this
+                                    disaster. Every contribution, big or small, makes difference. Please join us in
+                                    supporting the relief efforts and making a positive impact on the lives of those in
+                                    need.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div><input class="border rounded-xl p-4 w-full mb-4" placeholder="Write Donation Amount" type="text" name="" id="feni-donate-taka">
+                                <br></div>
+                            <button id="sec-add-taka" class="py-4 px-8 w-full bg-[#B4F461] font-bold text-xl rounded-xl">Donate Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-end -->
+    
+                <!-- card-3 -->
+                <div class="grid grid-cols-2 p-10 border rounded-2xl h-max">
+                    <div>
+                        <img src="assets/quota-protest.png" alt="">
+                    </div>
+                    <div>
+                        <div>
+                            <div class="flex gap-2 py-3 px-4 bg-slate-50 w-36 h-auto rounded-lg mb-4">
+                                <div><img src="assets/coin.png" alt=""></div>
+                                <div class="inline-flex gap-1 font-bold"><div id="quota-total-taka" class="font-normal ">15000</div>BDT</div>
+                                
+                            </div>
+                            <div class="mb-8">
+                                <h3 class="font-extrabold leading-8 text-xl mb-4">Aid for Injured in the Quota Movement</h3>
+                                <p class="text-base text-slate-500 font-medium"> The recent floods in Noakhali have caused significant damage to homes infrastructure.
+                                    Your donation will help provide essential supplies and to those affected by this
+                                    disaster. Every contribution, big or small, makes difference. Please join us in
+                                    supporting the relief efforts and making a positive impact on the lives of those in
+                                    need.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div><input class="border rounded-xl p-4 w-full mb-4" placeholder="Write Donation Amount" type="text" name="" id="quota-donate-taka">
+                                <br></div>
+                            <button id="th-add-taka" class="py-4 px-8 w-full bg-[#B4F461] font-bold text-xl rounded-xl">Donate Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-end -->
+                 
             </div>
-            <!-- card-end -->
-
-
-             <!-- card-2 -->
-            <div class="grid grid-cols-2 p-10 border rounded-2xl">
-                <div class="">
-                    <img src="assets/feni.png" alt="">
-                </div>
-                <div>
-                    <div>
-                        <div class="flex gap-2 py-3 px-4 bg-slate-50 w-36 h-auto rounded-lg mb-4">
-                            <div><img src="assets/coin.png" alt=""></div>
-                           <div class="font-bold inline-flex gap-1"> <div id="feni-total-taka" class="font-normal ">10000</div>BDT</div>
-                        </div>
-                        <div class="mb-8">
-                            <h3 class="font-extrabold leading-8 text-xl mb-4">Donate for Flood Relief in Feni,Bangladesh</h3>
-                            <p class="text-base text-slate-500 font-medium"> The recent floods in Noakhali have caused significant damage to homes infrastructure.
-                                Your donation will help provide essential supplies and to those affected by this
-                                disaster. Every contribution, big or small, makes difference. Please join us in
-                                supporting the relief efforts and making a positive impact on the lives of those in
-                                need.</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div><input class="border rounded-xl p-4 w-full mb-4" placeholder="Write Donation Amount" type="text" name="" id="feni-donate-taka">
-                            <br></div>
-                        <button id="sec-add-taka" class="py-4 px-8 w-full bg-[#B4F461] font-bold text-xl rounded-xl">Donate Now</button>
-                    </div>
-                </div>
+            <div id="history" class="hidden">
+    
             </div>
-            <!-- card-end -->
-
-            <!-- card-3 -->
-            <div class="grid grid-cols-2 p-10 border rounded-2xl h-max">
-                <div>
-                    <img src="assets/quota-protest.png" alt="">
-                </div>
-                <div>
-                    <div>
-                        <div class="flex gap-2 py-3 px-4 bg-slate-50 w-36 h-auto rounded-lg mb-4">
-                            <div><img src="assets/coin.png" alt=""></div>
-                            <div class="inline-flex gap-1 font-bold"><div id="quota-total-taka" class="font-normal ">15000</div>BDT</div>
-                            
-                        </div>
-                        <div class="mb-8">
-                            <h3 class="font-extrabold leading-8 text-xl mb-4">Aid for Injured in the Quota Movement</h3>
-                            <p class="text-base text-slate-500 font-medium"> The recent floods in Noakhali have caused significant damage to homes infrastructure.
-                                Your donation will help provide essential supplies and to those affected by this
-                                disaster. Every contribution, big or small, makes difference. Please join us in
-                                supporting the relief efforts and making a positive impact on the lives of those in
-                                need.</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div><input class="border rounded-xl p-4 w-full mb-4" placeholder="Write Donation Amount" type="text" name="" id="quota-donate-taka">
-                            <br></div>
-                        <button id="th-add-taka" class="py-4 px-8 w-full bg-[#B4F461] font-bold text-xl rounded-xl">Donate Now</button>
-                    </div>
-                </div>
-            </div>
-            <!-- card-end -->
-             <!-- history -->
-             <div id="history-btn" class="hidden">
-
-             </div>
         </div>
     </main>
     <script src="js/donation.js"></script>

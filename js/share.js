@@ -31,3 +31,6 @@ document.getElementById('history-btn')
         document.getElementById('history').classList.remove('hidden')
         document.getElementById('donate').classList.add('hidden')
     })
+
+
+    

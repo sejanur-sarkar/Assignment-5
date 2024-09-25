@@ -12,8 +12,8 @@ document.getElementById('th-add-taka')
                 const totalTaka = getTextFieldValueById('quota-total-taka');
                 const newTotal = totalTaka + donationInputTaka;
 
-                const totalTakaN = document.getElementById('quota-total-taka');
-                totalTakaN.innerText = newTotal;
+                document.getElementById('quota-total-taka').innerText = newTotal;
+                
 
                 const myTakaA = document.getElementById('my-taka');
                 myTakaA.innerText = newMyTaka;

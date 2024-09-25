@@ -14,36 +14,39 @@
 </head>
 
 <body class="bg-slate-50">
-    <header class=" h-24 sticky top-0">
-        <div class="flex justify-between py-6 px-36 font-bold bg-transparent backdrop-blur-sm">
-            <button class="rounded-lg h-12 w-28 font-extrabold size-5 bg-[#B4F461]">Blog</button>
-           <div class="flex justify-center gap-3 items-center"><img src="assets/logo.png" alt=""> Donate Bangladesh</div>
-            <!-- <button id="my-taka" class="flex rounded-lg text-slate-500"><img src="assets/coin.png" alt=""> 5500 </button> -->
-            <div class="inline-flex gap-1  text-slate-500 items-center"><img src="assets/coin.png" alt=""> <button id="my-taka" class="flex rounded-lg">5500</button>BDT</div>
-        </div>
-    </header>
-    <main>
-        <div class="bg-white py-20 px-36">
-            <div class="flex gap-4 justify-center mb-8">
+    <header class=" lg:h-24 sticky sm:h-auto top-0 sm:mt-3">
+        <div class="bg-transparent backdrop-blur-sm">
+            <div class="lg:flex lg:justify-between lg:py-6 lg:px-36 lg:font-bold sm:flex sm:justify-between sm:p-1 sm:left-1">
+                <button class="rounded-lg lg:h-12 lg:w-28 lg:font-extrabold lg:size-5 bg-[#B4F461]">Blog</button>
+               <div class="flex justify-center gap-3 items-center "><img src="assets/logo.png" alt=""> Donate Bangladesh</div>
+                <!-- <button id="my-taka" class="flex rounded-lg text-slate-500"><img src="assets/coin.png" alt=""> 5500 </button> -->
+                <div class="inline-flex gap-1  text-slate-500 items-center"><img src="assets/coin.png" alt=""> <button id="my-taka" class="flex rounded-lg">5500</button>BDT</div>
+            </div>
+            <div class="flex gap-4 justify-center mb-16">
                 <button id="donate-btn" class="rounded-lg w-40 h-14 font-extrabold text-xl bg-[#B4F461]  ">Donation</button>
                 <button id="history-btn" class="rounded-lg w-36 h-14 text-xl font-semibold text-slate-500 bor border">History</button>
             </div>
+        </div>
+    </header>
+    <main>
+        <div class="bg-white lg:py-20 lg:px-36 lg:mt-20">
+            
             <div id="donate" class="bg-white  flex flex-col gap-8">
                 
                 <!-- card-1 -->
-                <div class="grid grid-cols-2 p-10 border rounded-2xl ">
-                    <div class="">
+                <div class="lg:grid lg:grid-cols-2 lg:p-10 lg:border lg:rounded-2xl lg:mt-1 sm:grid sm:px-1 ">
+                    <div class="sm:p-1 sm:w-auto sm:h-auto">
                         <img src="assets/noakhali.png" alt="">
                     </div>
                     <div>
                         <div>
-                            <div class="flex gap-2 py-3 px-4 bg-slate-50 w-36 h-auto rounded-lg mb-4">
+                            <div class="lg:flex lg:gap-2 lg:py-3 lg:px-4 bg-slate-50 lg:w-36 lg:h-auto lg:rounded-lg lg:mb-4">
                                 <div><img src="assets/coin.png" alt=""></div>
                                 <div class="font-bold inline-flex gap-1"><div id="noakhali-total-taka" class="font-normal ">15000</div>BDT</div>
                             </div>
-                            <div class="mb-8">
-                                <h3 class="font-extrabold leading-8 text-xl mb-4">Donate for Flood at Noakhali, Bangladesh</h3>
-                                <p class="text-base text-slate-500 font-medium"> The recent floods in Noakhali have caused significant damage to homes infrastructure.
+                            <div class="lg:mb-8">
+                                <h3 class="lg:font-extrabold lg:leading-8 lg:text-xl lg:mb-4">Donate for Flood at Noakhali, Bangladesh</h3>
+                                <p class="lg:text-base text-slate-500 lg:font-medium"> The recent floods in Noakhali have caused significant damage to homes infrastructure.
                                     Your donation will help provide essential supplies and to those affected by this
                                     disaster. Every contribution, big or small, makes difference. Please join us in
                                     supporting the relief efforts and making a positive impact on the lives of those in
@@ -51,9 +54,9 @@
                             </div>
                         </div>
                         <div>
-                            <div><input class="border rounded-xl p-4 w-full mb-4" placeholder="Write Donation Amount" type="text" name="" id="noakhali-donate-taka">
+                            <div><input class="border rounded-xl lg:p-4 lg:w-full lg:mb-4" placeholder="Write Donation Amount" type="text" name="" id="noakhali-donate-taka">
                                 <br></div>
-                            <button id="add-taka" class="py-4 px-8 w-full bg-[#B4F461] font-bold text-xl rounded-xl">Donate Now</button>
+                            <button id="add-taka" class="lg:py-4 lg:px-8 lg:w-full bg-[#B4F461] lg:font-bold lg:text-xl rounded-xl">Donate Now</button>
                         </div>
                     </div>
                 </div>
